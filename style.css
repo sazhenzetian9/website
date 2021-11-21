@@ -1,0 +1,63 @@
+header{
+    background-color: rgb(62, 220, 62);
+    height: 500px;
+    background-image: url(top.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+*{
+    margin:0;
+}
+h1 {
+    color:#ffffff;
+     font-size:64px;
+     text-align: center;
+     padding-top: 110px;
+     padding-right: 500px;
+     }
+.TopNav{
+   margin-top: 40px;
+   height: 100px;
+   text-align: center;
+ }  
+.TopNav ul{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 600px;
+    margin: 0 auto; 
+ }  
+.TopNav ul a{
+    display: block;
+    margin: 5px 0;
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border: green 1px solid;
+    transition: all 0.5s ease-in-out;
+    border-radius: 15px 0 15px 0;
+    box-shadow: 25px 20px 10px rgba(0, 0, 0, 1);
+ }
+ .TopNav ul a:hover {
+     opacity:0.5;
+     color: white;
+     background-color: green;
+ }
+ ul{
+     list-style: none;
+ }
+ article{
+     width: 960px;
+     margin: 250px auto 50px;
+ }
+ section h3{
+     text-align: left;
+    margin: 32px;
+    font-size: 25px;
+ }
+ .flex {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+ }
